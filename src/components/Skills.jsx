@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import React from 'react'
 import icon from '../../public/Icon.png'
-import iconUno from '../../public/icon.svg'
-import iconDos from '../../public/chase.svg'
-import iconTres from '../../public/icon-2.svg'
-import iconCuatro from '../../public/icon-3.svg'
-import iconCinco from '../../public/icon-4.svg'
-import iconSeis from '../../public/icon-5.svg'
+// import iconUno from '../../public/icon.svg'
+// import iconDos from '../../public/chase.svg'
+// import iconTres from '../../public/icon-2.svg'
+// import iconCuatro from '../../public/icon-3.svg'
+// import iconCinco from '../../public/icon-4.svg'
+// import iconSeis from '../../public/icon-5.svg'
 
 
 const Skills = () => {
