@@ -19,11 +19,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <header className='w-[90%] mx-auto'>
+        <header className='w-full  bg-[#444]'>
           <Navbar />
+          <Hero />
         </header>
         <section className='w-[90%] mx-auto'>
-          <Hero />
           <Certification />
           <Skills/>
           <About/>

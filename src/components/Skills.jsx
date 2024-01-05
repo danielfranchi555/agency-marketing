@@ -1,12 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
 import icon from '../../public/Icon.png'
-// import iconUno from '../../public/icon.svg'
-// import iconDos from '../../public/chase.svg'
-// import iconTres from '../../public/icon-2.svg'
-// import iconCuatro from '../../public/icon-3.svg'
-// import iconCinco from '../../public/icon-4.svg'
-// import iconSeis from '../../public/icon-5.svg'
 
 
 const Skills = () => {
@@ -17,15 +11,15 @@ const Skills = () => {
                 <p className='text-[#C9C9C9] lg:text-[18px] text-[15px] font-normal'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor Lorem ipsum dolor sit amet consetetur sadipscing elitr</p>
             </div>
             <div className='grid grid-cols-2 gap-4  md:grid md:grid-cols-4'>
-                <div className='bg-[#131313] px-5 py-3 '>
+                <div className='bg-[#131313] px-5 py-4 '>
                     <div className='h-[40px] lg:h-[90px]  '>
-                    <Image src={icon} width='auto' height='auto' alt='icon' className='w-[40px] lg:w-[70px] h-full ' />
+                        <span className='icon icon-chart-bar-outline text-[35px] md:text-[40px] lg:text-[70px] text-[#3DD47E]'></span>
                     </div>
-                    <p className='text-[#C9C9C9] text-[17px]  py-2'>Search Engine Optimization</p>
+                    <p className='text-[#C9C9C9] text-[17px] py-2'>Search Engine Optimization</p>
                 </div>
                 <div className='bg-[#131313] px-5 py-4'>
-                    <div className='h-[40px] lg:h-[90px]'>
-                        {/* <Image src={iconDos} width='auto' height='auto' alt='icon' className='w-[40px] lg:w-[70px] h-full ' /> */}
+                    <div className='h-[40px] lg:h-[90px] '>
+                    <span className='icon text-[#3DD47E] icon-group-outline text-[35px] md:text-[40px] lg:text-[70px]'></span>
                     </div>
                     <p className='text-[#C9C9C9] text-[17px] py-2 '>Search Engine Optimization</p>
                 </div>
@@ -35,25 +29,25 @@ const Skills = () => {
                 </div>
                 <div className='bg-[#131313] px-5 py-4'>
                     <div className='h-[40px] lg:h-[90px]'>
-                        {/* <Image src={iconTres} width='auto' height='auto' alt='icon' className='w-[40px] lg:w-[70px] h-full' /> */}
+                    <span className='icon text-[#3DD47E] icon-video-outline text-[35px] md:text-[40px] lg:text-[70px]'></span>
                     </div>
                     <p className='text-[#C9C9C9] text-[17px] py-2'>Search Engine Optimization</p>
                 </div>
                 <div className='bg-[#131313] px-5 py-4'>
                     <div className='h-[40px] lg:h-[90px]'>
-                        {/* <Image src={iconCuatro} width='auto' height='auto' alt='icon' className='w-[35px] lg:w-[70px] h-full' /> */}
+                    <span className='icon text-[#3DD47E] icon-edit text-[35px] md:text-[40px] lg:text-[70px]'></span>
                     </div>
                     <p className='text-[#C9C9C9] text-[17px] py-2'>Search Engine Optimization</p>
                 </div>
                 <div className='bg-[#131313] px-5 py-4'>
                     <div className=' h-[50px] lg:h-[90px]'>
-                        {/* <Image src={iconCinco} width='auto' height='auto' alt='icon' className='w-[40px] lg:w-[70px] h-full' /> */}
+                    <span className='icon text-[#3DD47E] icon-code-outline text-[35px] md:text-[40px] lg:text-[70px]'></span>
                     </div>
                     <p className='text-[#C9C9C9] text-[17px] py-2'>Search Engine Optimization</p>
                 </div>
                 <div className='bg-[#131313] px-5 py-4'>
                     <div className=' h-[50px] lg:h-[90px]' >
-                        {/* <Image src={iconSeis} width='auto' height='auto' alt='icon' className='w-[30px] lg:w-[60px] h-full' /> */}
+                    <span className='icon text-[#3DD47E] icon-one-finger-click text-[35px] md:text-[40px] lg:text-[70px]'></span>
                     </div>
                     <p className='text-[#C9C9C9] text-[17px] py-2 '>Search Engine Optimization</p>
                 </div>

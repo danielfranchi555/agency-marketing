@@ -3,7 +3,7 @@ import React from 'react'
 import imagen from '../../public/image-hero.svg'
 const Hero = () => {
     return (
-        <div className='flex flex-col gap-5 md:grid md:grid-cols-2  md:items-center md:w-full lg:gap-0'>
+        <div className=' w-[90%] pb-10 md:pb-0 mx-auto lg:w-[90%] lg:mx-auto flex flex-col gap-5 md:grid md:grid-cols-2  md:items-center md:w-full lg:gap-0 bg-[#444]'>
             <div className='flex items-center justify-center md:order-2 lg:w-full'>
                 <Image src={imagen} width='auto' height='auto' alt='image-hero' className='w-[300px] lg:w-[60%]' />
             </div>
