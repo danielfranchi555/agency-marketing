@@ -1,11 +1,11 @@
 import Image from 'next/image'
 import React from 'react'
-import iconOne from '../../public/icon.svg'
-import iconTwo from '../../public/icon-1.svg'
-import iconThree from '../../public/icon-2.svg'
-import iconFour from '../../public/icon-3.svg'
-import iconFive from '../../public/icon-4.svg'
-import iconSix from '../../public/icon-5.svg'
+import iconUno from '../../public/icon.svg'
+import iconDos from '../../public/icon-1.svg'
+import iconTres from '../../public/icon-2.svg'
+import iconCuatro from '../../public/icon-3.svg'
+import iconCinco from '../../public/icon-4.svg'
+import iconSeis from '../../public/icon-5.svg'
 
 
 const Skills = () => {
@@ -18,13 +18,13 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4  md:grid md:grid-cols-4'>
                 <div className='bg-[#131313] px-5 py-3 '>
                     <div className='h-[40px] lg:h-[90px]  '>
-                        <Image src={iconOne} width='auto' height='auto' alt='icon' className='w-[40px] lg:w-[70px] h-full ' />
+                        <Image src={iconUno} width='auto' height='auto' alt='icon' className='w-[40px] lg:w-[70px] h-full ' />
                     </div>
                     <p className='text-[#C9C9C9] text-[17px]  py-2'>Search Engine Optimization</p>
                 </div>
                 <div className='bg-[#131313] px-5 py-4'>
                     <div className='h-[40px] lg:h-[90px]'>
-                        <Image src={iconTwo} width='auto' height='auto' alt='icon' className='w-[40px] lg:w-[70px] h-full ' />
+                        <Image src={iconDos} width='auto' height='auto' alt='icon' className='w-[40px] lg:w-[70px] h-full ' />
                     </div>
                     <p className='text-[#C9C9C9] text-[17px] py-2 '>Search Engine Optimization</p>
                 </div>
@@ -34,25 +34,25 @@ const Skills = () => {
                 </div>
                 <div className='bg-[#131313] px-5 py-4'>
                     <div className='h-[40px] lg:h-[90px]'>
-                        <Image src={iconThree} width='auto' height='auto' alt='icon' className='w-[40px] lg:w-[70px] h-full' />
+                        <Image src={iconTres} width='auto' height='auto' alt='icon' className='w-[40px] lg:w-[70px] h-full' />
                     </div>
                     <p className='text-[#C9C9C9] text-[17px] py-2'>Search Engine Optimization</p>
                 </div>
                 <div className='bg-[#131313] px-5 py-4'>
                     <div className='h-[40px] lg:h-[90px]'>
-                        <Image src={iconFour} width='auto' height='auto' alt='icon' className='w-[35px] lg:w-[70px] h-full' />
+                        <Image src={iconCuatro} width='auto' height='auto' alt='icon' className='w-[35px] lg:w-[70px] h-full' />
                     </div>
                     <p className='text-[#C9C9C9] text-[17px] py-2'>Search Engine Optimization</p>
                 </div>
                 <div className='bg-[#131313] px-5 py-4'>
                     <div className=' h-[50px] lg:h-[90px]'>
-                        <Image src={iconFive} width='auto' height='auto' alt='icon' className='w-[40px] lg:w-[70px] h-full' />
+                        <Image src={iconCinco} width='auto' height='auto' alt='icon' className='w-[40px] lg:w-[70px] h-full' />
                     </div>
                     <p className='text-[#C9C9C9] text-[17px] py-2'>Search Engine Optimization</p>
                 </div>
                 <div className='bg-[#131313] px-5 py-4'>
                     <div className=' h-[50px] lg:h-[90px]' >
-                        <Image src={iconSix} width='auto' height='auto' alt='icon' className='w-[30px] lg:w-[60px] h-full' />
+                        <Image src={iconSeis} width='auto' height='auto' alt='icon' className='w-[30px] lg:w-[60px] h-full' />
                     </div>
                     <p className='text-[#C9C9C9] text-[17px] py-2 '>Search Engine Optimization</p>
                 </div>
