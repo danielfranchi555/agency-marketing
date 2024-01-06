@@ -25,7 +25,7 @@ const Testmonials = () => {
                     </div>
                     <div className='bg-[#0D0D0D] rounded-md grid gap-4 px-5 py-4'>
                         <div className='flex gap-2'>
-                            <Image src={avatarUno} width='auto' height='auto' alt='avatar' className='rounded-full' />
+                            <Image src={avatarTwO} width='auto' height='auto' alt='avatar' className='rounded-full' />
                             <div className='flex flex-col gap-1 items-start justify-center'>
                                 <span className='lg:text-[16px] text-[10px] font-semibold text-[#fff]'>Zoe Mantis</span>
                                 <span className='lg:text-[13px] text-[7px] text-[#C9C9C9]'> Founder, Alpha Group</span>
@@ -37,7 +37,7 @@ const Testmonials = () => {
                     </div>
                     <div className='bg-[#0D0D0D] rounded-md grid gap-4 px-5 py-4'>
                         <div className='flex gap-2'>
-                            <Image src={avatarUno} width='auto' height='auto' alt='avatar' className='rounded-full' />
+                            <Image src={avatarThree} width='auto' height='auto' alt='avatar' className='rounded-full' />
                             <div className='flex flex-col gap-1 items-start justify-center'>
                                 <span className='lg:text-[16px] text-[10px] font-semibold text-[#fff]'>Zoe Mantis</span>
                                 <span className='lg:text-[13px] text-[7px] text-[#C9C9C9]'> Founder, Alpha Group</span>
