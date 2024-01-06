@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import imagen from '../../public/image-hero.svg'
+import imagen from '../images/empresaria.png'
 const Hero = () => {
     return (
         <div className=' w-[90%] pb-10 md:pb-0 mx-auto lg:w-[90%] lg:mx-auto flex flex-col gap-5 md:grid md:grid-cols-2  md:items-center md:w-full lg:gap-0 bg-[#444]'>

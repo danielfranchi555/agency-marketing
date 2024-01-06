@@ -9,7 +9,7 @@ import imageTwo from '../images/image-hero-2.png'
 
 const About = () => {
     return (
-        <div className='flex flex-col  items-center gap-5 md:grid md:grid-cols-2 md:mt-[180px] '>
+        <div className='flex flex-col w-[90%] mx-auto  items-center gap-5 md:grid md:grid-cols-2 md:mt-[180px] '>
             <div>
                 <Image src={imageTwo} width='auto' height='auto' className='md:hidden' />
                 <Image src={imageAbout} width='auto' height='auto' className='hidden md:block' />

@@ -8,7 +8,7 @@ import newYorktTimes from '../../public/new-york-times.svg'
 import Image from 'next/image'
 const Certification = () => {
   return (
-    <div className='mt-[90px]'>
+    <div className='mt-[90px] w-[90%] mx-auto'>
       <div className='flex divide-x py-4 items-center'>
           <h2 className='text-[16px] md:text-[25px] text-[#fff] border-r pr-4 '>Featured in</h2>
           <p className='text-[#C9C9C9] md:text-[20px] text-[15px] font-semibold px-4'>Our Certification</p>

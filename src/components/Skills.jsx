@@ -5,7 +5,7 @@ import icon from '../../public/Icon.png'
 
 const Skills = () => {
     return (
-        <div className='mt-[128px] grid gap-5 '>
+        <div className='mt-[128px] grid gap-5 w-[90%] mx-auto'>
             <div className='md:hidden '>
                 <h3 className='text-[#fff] lg:text-[40px] text-[25px] font-semibold'>Our DigitalMarketing Expertise</h3>
                 <p className='text-[#C9C9C9] lg:text-[18px] text-[15px] font-normal'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor Lorem ipsum dolor sit amet consetetur sadipscing elitr</p>

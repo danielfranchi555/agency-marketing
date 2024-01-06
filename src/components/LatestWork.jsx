@@ -6,9 +6,9 @@ import imageThree from '../images/Image-3.png'
 
 const LatestWork = () => {
   return (
-    <div>
+    <div className='w-[90%] mx-auto'>
       <h5 className='text-[#fff] font-semibold text-[30px] lg:text-[40px] mt-[150px]'>Our latest work</h5>
-      <div className='flex flex-col md:grid md:grid-cols-3 md:gap-5 mt-[41px]'>
+      <div className='flex gap-5 flex-col md:grid md:grid-cols-3 md:gap-5 mt-[41px]'>
         <div className=' flex flex-col gap-2'>
             <Image src={imageOne} width='auto' height='auto' alt='imageWork' className='w-full'/>
             <span className='text-[#fff] lg:text-[25px] font-semibold'>Artem - Digital Marketing campaign</span>
