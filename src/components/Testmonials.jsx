@@ -12,36 +12,42 @@ import Slider from 'react-slick'
 const Testmonials = () => {
     const test = [
         {
+            id: 1,
             imagen: avatarUno,
             nombre: 'Zoe Mantis',
             founder: 'Founder, Alpha Group',
             testmonio: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod'
         },
         {
+            id: 2,
             imagen: avatarTwO,
             nombre: 'Zoe Mantis',
             founder: 'Founder, Alpha Group',
             testmonio: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod'
         },
         {
+            id: 2,
             imagen: avatarThree,
             nombre: 'Zoe Mantis',
             founder: 'Founder, Alpha Group',
             testmonio: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod'
         },
         {
+            id: 4,
             imagen: avatarUno,
             nombre: 'Zoe Mantis',
             founder: 'Founder, Alpha Group',
             testmonio: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod'
         },
         {
+            id: 5,
             imagen: avatarTwO,
             nombre: 'Zoe Mantis',
             founder: 'Founder, Alpha Group',
             testmonio: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod'
         },
         {
+            id: 6,
             imagen: avatarThree,
             nombre: 'Zoe Mantis',
             founder: 'Founder, Alpha Group',
@@ -91,7 +97,7 @@ const Testmonials = () => {
                 <h6 className='lg:text-[40px] text-[30px] font-semibold text-[#fff]'>Testimonials</h6>
                 <Slider {...settings} className='mt-3'>
                     {test.map((item) => (
-                        <div className='bg-[#0D0D0D] shadow-lg flex rounded-md py-7 px-3'>
+                        <div key={item.id} className='bg-[#0D0D0D] shadow-lg flex rounded-md py-7 px-3'>
                             <div className='flex gap-3 '>
                                 <Image src={item.imagen} width='full' className='rounded-full w-[50px]' height='auto' />
                                 <div className='flex flex-col gap-1'>
