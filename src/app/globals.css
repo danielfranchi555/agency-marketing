@@ -57,3 +57,33 @@ body{
 .icon-code-outline:before {
   content: "\e900";
 }
+
+.slick-slide > div{
+  margin: 0 10px;
+}
+
+
+@keyframes scroll {
+  0% {
+transform: translateX(0);
+  }
+  100%{
+    transform: translateX(calc(-400px * 3 - 0.5rem * 6));
+
+  }
+}
+
+.slide-scroll{
+  animation: scroll 13s linear infinite;
+}
+
+.slick-next{
+  right: -13px !important
+}
+.slick-prev{
+  left: -13px !important
+}
+
+html {
+  scroll-behavior: smooth;
+}

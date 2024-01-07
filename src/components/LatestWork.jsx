@@ -6,7 +6,7 @@ import imageThree from '../images/Image-3.png'
 
 const LatestWork = () => {
   return (
-    <div className='w-[90%] mx-auto'>
+    <div id='latestWork' className='w-[90%] mx-auto'>
       <h5 className='text-[#fff] font-semibold text-[30px] lg:text-[40px] mt-[150px]'>Our latest work</h5>
       <div className='flex gap-5 flex-col md:grid md:grid-cols-3 md:gap-5 mt-[41px]'>
         <div className=' flex flex-col gap-2'>
