@@ -3,7 +3,7 @@ import React from 'react'
 import imageOne from '../images/Image-1.png'
 import imageTwo from '../images/Image-2.png'
 import imageThree from '../images/Image-3.png'
-import FadeLeft from './fadeLeft'
+import FadeLeft from './FadeLeft'
 import Reveal from './Reveal'
 
 const LatestWork = () => {
