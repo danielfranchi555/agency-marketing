@@ -9,7 +9,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'
 import Reveal from './Reveal'
 import MotionTransition from './MotionTransition'
-import FadeLeft from './fadeLeft'
+import FadeLeft from './FadeLeft'
 
 
 const Testmonials = () => {

@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import imageAbout from '../images/Section-Image.png'
 import imageTwo from '../images/image-hero-2.png'
-import FadeLeft from './fadeLeft'
+import FadeLeft from './FadeLeft'
 import Reveal from './Reveal'
 
 
