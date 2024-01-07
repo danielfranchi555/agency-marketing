@@ -7,6 +7,9 @@ import avatarThree from '../../public/avatar-3.svg'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'
+import Reveal from './Reveal'
+import MotionTransition from './MotionTransition'
+import FadeLeft from './fadeLeft'
 
 
 const Testmonials = () => {
@@ -94,21 +97,33 @@ const Testmonials = () => {
     return (
         <div id='testmonials' className='w-[100%] mt-[150px] bg-[#131313] py-20'>
             <div className='w-[90%] mx-auto'>
-                <h6 className='lg:text-[40px] text-[30px] font-semibold text-[#fff]'>Testimonials</h6>
+                <FadeLeft>
+                    <h6 className='lg:text-[40px] text-[30px] font-semibold text-[#fff]'>Testimonials</h6>
+                </FadeLeft>
+
                 <Slider {...settings} className='mt-3'>
                     {test.map((item) => (
-                        <div key={item.id} className='bg-[#0D0D0D] shadow-lg flex rounded-md py-7 px-3'>
+                        <MotionTransition key={item.id} className='bg-[#0D0D0D] shadow-lg flex rounded-md  flex-col  py-7 px-3'>
                             <div className='flex gap-3 '>
                                 <Image src={item.imagen} width='full' className='rounded-full w-[50px]' height='auto' />
                                 <div className='flex flex-col gap-1'>
                                     <span className='text-[#fff] lg:text-[16px] text-[15px]'>{item.nombre}</span>
                                     <span className='text-[#C9C9C9] lg:text-[13px] text-[10px]'>{item.founder}</span>
                                 </div>
+
                             </div>
-                            <p className=' text-[#C9C9C9] lg:text-[18px] text-[15px] py-3'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
-                        </div>
+                            <div>
+                                <p className=' text-[#C9C9C9] lg:text-[18px] text-[15px] py-3'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
+
+                            </div>
+                        </MotionTransition>
+
+
+
+
                     ))}
                 </Slider>
+
             </div>
 
 

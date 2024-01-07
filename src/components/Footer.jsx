@@ -2,10 +2,11 @@ import Image from 'next/image'
 import React from 'react'
 import phone from '../../public/phone.svg'
 import images from '../images/image-footer.png'
+import MotionTransition from './MotionTransition'
 
 const Footer = () => {
     return (
-        <div className=' md:grid md:grid-cols-2 mt-[150px] w-[90%] mx-auto '>
+        <MotionTransition className=' md:grid md:grid-cols-2 mt-[150px] w-[90%] mx-auto '>
             <div className='flex flex-col justify-center gap-5 md:gap-5 '>
                 <h7 className='text-[#fff] text-[30px] lg:text-[50px] md:max-w-[500px] font-semibold'>Creative Digital Marketing Agency</h7>
                 <p className='text-[#C9C9C9] text-[15px] lg:text-[18px]'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor Lorem ipsum dolor sit amet consetetur sadipscing elitr</p>
@@ -24,7 +25,7 @@ const Footer = () => {
 
             </div>
 
-        </div>
+        </MotionTransition>
     )
 }
 

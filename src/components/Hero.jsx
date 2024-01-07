@@ -12,7 +12,7 @@ import Reveal from './Reveal'
 
 const Hero = () => {
     return (
-        <Reveal  className= 'w-[90%] md:w-[90%] md:mx-auto pb-10 md:pb-0 mx-auto lg:w-[90%] lg:mx-auto flex flex-col gap-5 md:grid md:grid-cols-2  md:items-center lg:gap-0 bg-[#444] lg:h-[650px]  overflow-hidden'>
+        <Reveal className= 'w-[90%] md:w-[90%] md:mx-auto pb-10 md:pb-0 mx-auto lg:w-[90%] lg:mx-auto flex flex-col gap-5 md:grid md:grid-cols-2  md:items-center lg:gap-0 bg-[#444] lg:h-[650px]  overflow-hidden'>
             <div className='flex items-center justify-center md:order-2  lg:w-full  '>
                     <Image src={imagen} width='auto' height='auto' alt='image-hero' className='lg:w-[80%] h-full' /> 
             </div>
